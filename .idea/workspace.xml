@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4324909c-873d-4faa-9b14-f393a9f1cc11" name="Default Changelist" comment="" />
+    <list default="true" id="4324909c-873d-4faa-9b14-f393a9f1cc11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/getActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/getActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/postActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/postActions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -136,7 +145,30 @@
       <option name="presentableId" value="Default" />
       <updated>1579446920097</updated>
     </task>
+    <task id="LOCAL-00001" summary="Testing git push">
+      <created>1579468640307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579468640307</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing git push" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1918" y="31" key="#Project_Structure" timestamp="1579451020624">
@@ -151,22 +183,30 @@
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
     <state x="2122" y="232" width="408" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579461093450" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1579466639531">
+    <state x="1980" y="-31" key="CommitChangelistDialog2" timestamp="1579468958078">
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579466639531" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1579466639531">
+    <state x="1980" y="-31" key="CommitChangelistDialog2/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579468958078" />
+    <state x="1460" y="114" width="1736" height="856" key="DiffContextDialog" timestamp="1579468601315">
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.center/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579466639531" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1579466639530">
+    <state x="1460" y="114" width="1736" height="856" key="DiffContextDialog/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579468601315" />
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1579469198598">
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.left/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579466639530" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1579466639531">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579469198598" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1579469198598">
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.right/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579466639531" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579469198598" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1579469198598">
+      <screen x="1366" y="-148" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="349" key="GridCell.Tab.0.left/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579469198598" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1579469198598">
+      <screen x="1366" y="-148" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="349" key="GridCell.Tab.0.right/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579469198598" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579461136141">
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
@@ -183,5 +223,17 @@
       <screen x="1366" y="-148" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579461136140" />
+    <state x="1918" y="105" key="Vcs.Push.Dialog.v2" timestamp="1579468644226">
+      <screen x="1366" y="-148" width="1920" height="1040" />
+    </state>
+    <state x="1918" y="105" key="Vcs.Push.Dialog.v2/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579468644226" />
+    <state x="2135" y="289" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579468544543">
+      <screen x="1366" y="-148" width="1920" height="1040" />
+    </state>
+    <state x="2135" y="289" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579468544543" />
+    <state x="1708" y="68" key="new project wizard" timestamp="1579468838633">
+      <screen x="1366" y="-148" width="1920" height="1040" />
+    </state>
+    <state x="1708" y="68" key="new project wizard/1366.-148.1920.1040/0.0.1366.728@1366.-148.1920.1040" timestamp="1579468838633" />
   </component>
 </project>

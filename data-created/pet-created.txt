@@ -1,0 +1,8 @@
+*** Pet Created 2020-26-19 09:26:45 ***
+ID: 12345
+Category Name: Pet
+Pet Name: Billy
+Status: available
+Tag name: Dog Tag
+Photo URLs: sample.jpeg
+
