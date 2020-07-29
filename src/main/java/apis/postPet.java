@@ -1,15 +1,33 @@
 package apis;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
+@PropertySource("application.properties")
 public class postPet {
 
-    private String url = "https://petstore.swagger.io/v2/pet";
+    @Value("${pet.id}")
+    protected String petId;
 
-    private int petId = 12345;
+    @Value("${pet.name}")
+    protected String petName;
 
-    private String updateName ="Johnny";
+    @Value("${pet.photo.url}")
+    protected String photoUrl;
+
+    @Value("${pet.tag}")
+    protected String petTag;
+
+    @Value("${pet.status}")
+    protected String status;
+
+    @Value("${api.url}")
+    protected String url;
+
+    @Value("${updated.name}")
+    protected String updateName;
 
     public String getUpdateName() {
         return updateName;
@@ -24,6 +42,6 @@ public class postPet {
     }
 
     public String getRequestBody() {
-        return "{  \"id\": " + petId + ",\"category\": {\"id\": 1,\"name\": \"Pet\"},\"name\": \"Billy\",\"photoUrls\": [\"sample.jpeg\"],\"tags\": [{\"id\": 1,\"name\": \"Dog Tag\"}],\"status\":\"available\"}";
+        return "{  \"id\": " + petId + ",\"category\": {\"id\": 1,\"name\": \"Pet\"},\"name\": \""+petName+"\",\"photoUrls\": [\""+photoUrl+"\"],\"tags\": [{\"id\": 1,\"name\": \""+petTag+"\"}],\"status\":\""+status+"\"}";
     }
 }

@@ -7,6 +7,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -16,6 +17,7 @@ import java.io.IOException;
 
 @Component
 @ComponentScan(basePackages = {"apis"})
+@PropertySource("application.properties")
 public class deleteActions {
 
     @Autowired
