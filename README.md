@@ -7,7 +7,7 @@ After each run a file will be added to the data-created folder
 To run this project:
 Import it as a maven project and use the following link https://github.com/cscully93/swaggerPetAPITest.git
 Ensure on your IDE that you have relevant Cucumber and Gherkin plugins installed.
-Once loaded properly navihgate to the file petApiRunner.java in the api.test.pet package.
+Once loaded properly navigate to the file petApiRunner.java in the api.test.pet package.
 
 For the full suite of tests ensure that it is that tag is:
 
