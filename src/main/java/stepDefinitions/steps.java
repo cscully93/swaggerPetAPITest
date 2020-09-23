@@ -3,6 +3,9 @@ package stepDefinitions;
 import actions.deleteActions;
 import actions.getActions;
 import actions.postActions;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -21,6 +24,21 @@ public class steps {
     private static postActions post = context.getBean(postActions.class);
     private static getActions get = context.getBean(getActions.class);
     private static deleteActions delete = context.getBean(deleteActions.class);
+
+    @Before
+    public void before(Scenario scenario) {
+        String scenarioName = scenario.getName();
+        System.out.println("------------------------------");
+        System.out.println("Running Scenario: " + scenarioName);
+        System.out.println("------------------------------");
+    }
+
+    @After
+    public void after() {
+        System.out.println("------------------------------");
+        System.out.println("Scenario has completed");
+        System.out.println("------------------------------");
+    }
 
     @Given("the user builds the postPet API")
     public void the_user_builds_the_postPet_API() {
