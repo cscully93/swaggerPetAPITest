@@ -11,5 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 pet.iml
 pet-created.txt
-.idea/
-data-created/
+\.idea/
+\data-created/
