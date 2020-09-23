@@ -1,4 +1,6 @@
 target/
+data-created/
+.idea/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -10,4 +12,3 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 pet.iml
-data-created/pet-created.txt
