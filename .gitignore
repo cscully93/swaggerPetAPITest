@@ -10,5 +10,5 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 pet.iml
-/data-created/
-/.idea/
+/data-created/pet-created.txt
+/.idea/workspace.xml
