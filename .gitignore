@@ -10,4 +10,4 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 pet.iml
-.pet-created.txt
+data-created/pet-created.txt
