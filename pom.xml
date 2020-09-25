@@ -11,7 +11,7 @@
     <groupId>api.test</groupId>
     <artifactId>pet</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pet</name>
+    <name>petAPITest</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -59,13 +59,6 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.11</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.1.0</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
@@ -90,7 +83,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.18.1</version>
                 <configuration>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <includes>
+                        <include>**/*petApiRunner.java</include>
+                    </includes>
                 </configuration>
             </plugin>
             <plugin>
