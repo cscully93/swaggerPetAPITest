@@ -1,19 +1,17 @@
 package api.test.pet;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
-import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
 @CucumberOptions(features = "classpath:features/",
         glue = "stepDefinitions",
-        tags = {"@petAPITest"},
+        tags = "@petAPITest",
         plugin  = {"pretty",
-                "html:target/site/cucumber-pretty",
-                "json:target/cucumber.json"},
-        strict = true)
+                "html:target/cucumber-pretty",
+                "json:target/cucumber.json"})
 
 //This is a test
-public class petApiRunner {
+public class petApiRunner extends AbstractTestNGCucumberTests {
 
 }
