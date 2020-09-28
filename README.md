@@ -11,8 +11,12 @@ Once loaded properly navigate to the file petApiRunner.java in the api.test.pet 
 
 For the full suite of tests ensure that it is that tag is:
 
-@petApiTest - full feature file
-@postPet for the test to post a pet to the store
-@getPet to retrieve the pet details and verify that the details are correct
-@updatePet to update the pet name and display the pet details again
-@deletePet to delete the pet from the database and verify that it has been deleted
+- @petApiTest - full feature file
+
+- @postPet for the test to post a pet to the store
+
+- @getPet to retrieve the pet details and verify that the details are correct
+
+- @updatePet to update the pet name and display the pet details again
+
+- @deletePet to delete the pet from the database and verify that it has been deleted
