@@ -127,7 +127,7 @@ public class getActions {
     public void writePetToFile() {
         String fileName = "data-created/pet-created.txt";
         Date date = Calendar.getInstance().getTime();
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
         String strDate = dateFormat.format(date);
         try {
             PrintWriter writer = new PrintWriter(fileName, "UTF-8");
