@@ -11,8 +11,6 @@ import io.cucumber.testng.CucumberOptions;
         plugin  = {"pretty",
                 "html:target/cucumber-pretty",
                 "json:target/cucumber.json"})
-
-//This is a test
 public class petApiRunner extends AbstractTestNGCucumberTests {
 
 }
