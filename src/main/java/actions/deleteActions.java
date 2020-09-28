@@ -5,14 +5,13 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
+import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-
+import org.junit.Assert;
+import org.junit.After;
 import java.io.IOException;
 
 @Component
@@ -26,12 +25,12 @@ public class deleteActions {
     private CloseableHttpResponse response;
     private String url;
     private int actualStatus;
-    @BeforeMethod
+    @Before
     public void setup() {
         client = HttpClientBuilder.create().build();
     }
 
-    @AfterMethod()
+    @After()
     public void close() throws IOException {
         client.close();
         response.close();
@@ -51,6 +50,7 @@ public class deleteActions {
 
     public void checkActualResult(){
         Assert.assertEquals(actualStatus, 200);
+
     }
 
 }

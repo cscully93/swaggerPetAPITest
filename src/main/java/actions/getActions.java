@@ -10,12 +10,13 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -47,12 +48,12 @@ public class getActions {
     private int actualStatus;
     private JSONObject json;
 
-    @BeforeMethod
+    @Before
     public void setup() {
         client = HttpClientBuilder.create().build();
     }
 
-    @AfterMethod()
+    @After
     public void close() throws IOException {
         client.close();
         response.close();

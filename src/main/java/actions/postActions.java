@@ -11,12 +11,12 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -36,12 +36,12 @@ public class postActions {
     private String newName;
 
 
-    @BeforeMethod
+    @Before
     public void setup() {
         client = HttpClientBuilder.create().build();
     }
 
-    @AfterMethod()
+    @After
     public void close() throws IOException {
         client.close();
         response.close();
