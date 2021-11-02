@@ -13,16 +13,17 @@ import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
+import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+
+
 
 @Component
 @ComponentScan(basePackages = {"apis", "helpers"})
@@ -116,12 +117,12 @@ public class getActions {
     }
 
     public void verifyPetDetails() {
-        Assert.assertEquals(id, verifyPet.getId());
-        Assert.assertEquals(categoryName, verifyPet.getCategoryName());
-        Assert.assertEquals(petName, verifyPet.getPetName());
-        Assert.assertEquals(status, verifyPet.getStatus());
-        Assert.assertEquals(tagName, verifyPet.getTagName());
-        Assert.assertEquals(photoUrls, verifyPet.getPhotoUrls());
+        assertEquals(id, verifyPet.getId());
+        assertEquals(categoryName, verifyPet.getCategoryName());
+        assertEquals(petName, verifyPet.getPetName());
+        assertEquals(status, verifyPet.getStatus());
+        assertEquals(tagName, verifyPet.getTagName());
+        assertEquals(photoUrls, verifyPet.getPhotoUrls());
     }
 
     public void writePetToFile() {
